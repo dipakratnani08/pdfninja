@@ -310,10 +310,10 @@ const TopNavigationMenu: React.FC<TopNavigationMenuProps> = ({
           
           {/* Right side buttons */}
           <div className="hidden md:flex items-center space-x-3">
-            <Button className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+            {/* <Button className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
               <Download className="h-4 w-4 mr-2" />
               Download App
-            </Button>
+            </Button> */}
             <Button variant="outline" size="icon">
               <LifeBuoy className="h-5 w-5 text-gray-500" />
             </Button>
