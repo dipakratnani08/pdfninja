@@ -8,6 +8,7 @@ import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
+  base: '/pdfninja/', // 👈 important for GitHub Pages
   plugins: [
     react(),
   //  runtimeErrorOverlay(),
